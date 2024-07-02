@@ -14,7 +14,19 @@ function arithmeticOperations(a, b) {
 }
 
 console.log(arithmeticOperations(10, 5));
-//-----------------------------------//
+//2.-----------------------------------//
+function powerAndSquareRoot(num) {
+    let square = Math.pow(num, 2);
+    let squareRoot = Math.sqrt(num);
+
+    return {
+        square: square,
+        squareRoot: squareRoot
+    };
+}
+
+console.log(powerAndSquareRoot(9));
+console.log(powerAndSquareRoot(16));
 
 
 
